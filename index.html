@@ -12,22 +12,23 @@
 <div id='title'>
   <h1>Week 1 homework project Brian</h1>
   <div id='name'>
-    <button onclick='inputName()'>Input Name</button>
+    <button id='startbutton' onclick='inputName()'>Input Name</button>
   </div>
 </div>
-
 
 <div id='mainscreen'>
   <img class='gameimage' id='inn' src='images/imageFirstaid.jpg' onclick='rest(hero), displayStats(hero)'/>
   <img class='gameimage' id='dagger' src='images/imageDagger.jpg' onclick='pickUpItem(hero, dagger), displayStats(hero), removeImage()'/>
   <img class='gameimage' id='bag' src='images/imageBag.jpg' onclick='equipWeapon(hero), displayStats(hero)'/>
   <img class='gameimage' id='enemy' src='images/imageEnemy1.png' onclick='battleEnemy(hero, enemies), displayStats(hero)'/>
+  <p id='howtoplay'>How to play:<br> Click on the terribly evil monster to defeat him but keep track of your own life!</p>
 </div>
 
 <div id='hud'>
-<p id ='hearts'></p>
-<p id ='weapon'></p>
-<p id ='weapondamage'></p>
+  <p id ='playername'></p>
+  <p id ='hearts'></p>
+  <p id ='weapon'></p>
+  <p id ='weapondamage'></p>
 </div>
 
   <!-- I RECOMMEND YOU LEAVE THE REST UNTOUCHED -->
