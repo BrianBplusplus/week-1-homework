@@ -32,3 +32,24 @@ function equipWeapon(person){
     person.weapon = person.inventory[0];
   };
 };
+
+function inputName(){
+  const name = prompt("Enter your name here:");
+  console.log(name)
+  const h2 = document.createElement('h2');
+
+  h2.innerHTML = `The epic adventure of ${name}`;
+
+  if (name != false) { 
+    const locationForName = document.getElementById('hud');
+    locationForName.innerHTML = ''; //This line makes the button dissapear
+    locationForName.appendChild(h2);
+   } else { 
+    alert('Please input your name');
+    return;
+  };
+};
+
+function displayStats(){
+
+};

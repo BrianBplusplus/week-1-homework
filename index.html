@@ -9,11 +9,15 @@
 
   <!-- 👍 YOUR HTML HERE 👍 -->
 <link href='style.css' type='text/css' rel='stylesheet'/>
-<h1>Brian H1</h1>
-<img id='inn' onclick='rest(hero)'/>
-<img id='dagger' onclick='pickUpItem(hero, dagger)'/>
-<img id='bag' onclick='equipWeapon(hero)'/>
-
+<h1>Week 1 homework project Brian</h1>
+<div id="hud">
+  <button onclick='inputName()'>Edit Name</button>
+</div>
+<div id="mainscreen">
+  <img class='gameimage' id='inn' src="images/imageInn.jpg" onclick='rest(hero)'/>
+  <img class='gameimage' id='dagger' src="images/imageDagger.jpg" onclick='pickUpItem(hero, dagger)'/>
+  <img class='gameimage' id='bag' src="images/imageBag.jpg" onclick='equipWeapon(hero)'/>
+</div>
   <!-- I RECOMMEND YOU LEAVE THE REST UNTOUCHED -->
   <button onclick="mocha.checkLeaks(); mocha.run();">Run the tests!</button>
 
