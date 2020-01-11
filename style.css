@@ -1,3 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+#title, #mainscreen, #hud {
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+.removed {
+  display: none;
+}
+
 .gameimage {
   height: 20%;
+}
+
+#title {
+  text-align: center;
+  padding-bottom: 0.5em;
+  background-color: #dadaff;
+}
+
+#mainscreen {
+  min-height: 15em;
+}
+
+#hud {
+  padding: 0.5em;
+  background-color: #b9b8b8;
+}
+
+#bag {
+  float: right;
 }
