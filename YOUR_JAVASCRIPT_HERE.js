@@ -113,7 +113,9 @@ function battleEnemy(person, enemies) {
 
   if (person.health <= 0) {
     person.health = 0;
-    if(!alert('GAME OVER')){window.location.reload();}
+    if(!alert('GAME OVER')) {
+      window.location.reload();
+    };
   };
 };
 
